@@ -253,6 +253,16 @@ section{ padding-block:var(--gap); }
 .price-amt .unit{ font-family:var(--sans); font-size:.78rem; font-weight:400; color:var(--ink-faint); margin-left:3px; }
 .price-amt.talk{ font-family:var(--sans); font-size:.92rem; font-weight:500; color:var(--green); }
 
+/* 价目行内的联系咨询按钮 */
+.price-amt .btn-inline{
+  display:inline-block;
+  font-family:var(--sans); font-size:.82rem; font-weight:500; letter-spacing:.04em;
+  color:var(--paper); background:var(--green);
+  padding:7px 16px; border:1px solid var(--green);
+  transition:background-color .25s ease;
+}
+.price-amt .btn-inline:hover{ background:var(--green-deep); border-color:var(--green-deep); }
+
 /* ============================================================
    5. AI 方向亮点
    ============================================================ */
@@ -410,27 +420,29 @@ section{ padding-block:var(--gap); }
         <div class="member-body">
           <h3>小鱼学姐</h3>
           <p class="member-role">南方某中九硕士 · 预推免 offer 率 100%</p>
-          <p>夏令营被拒经验丰富，面试凉经很有价值诶！擅长作品集与简历辅导，也欢迎来做情绪疏导呀。</p>
+          <p>夏令营被拒经验丰富，面试凉经很有价值诶！新传（学硕 &amp; 专硕）、戏影、数媒、文管面试都有参加且拿到 offer，跨保及多线作战经验丰富，擅长规划、作品集辅导，也欢迎来做情绪疏导呀。</p>
         </div>
       </article>
 
-      <!-- 成员三 · 占位 -->
-      <article class="member empty">
+      <!-- 成员三 -->
+      <article class="member">
+        <!-- 头像占位灰块 · 建议 240×240px -->
         <div class="avatar">头像<br>240×240</div>
         <div class="member-body">
-          <h3>虚位以待</h3>
-          <p class="member-role">成员介绍待补充</p>
-          <p>这位朋友的方向与擅长正在补充中。</p>
+          <h3>慧慧学姐</h3>
+          <p class="member-role">细心周到的 ENFJ</p>
+          <p>保研期间参与过 10 余所院校的线下面试，有期刊发布经历，参与过挑战杯、大创等项目，获得多项国家级、省级奖项。擅长修改简历、模拟面试等指导。</p>
         </div>
       </article>
 
-      <!-- 成员四 · 占位 -->
-      <article class="member empty">
+      <!-- 成员四 -->
+      <article class="member">
+        <!-- 头像占位灰块 · 建议 240×240px -->
         <div class="avatar">头像<br>240×240</div>
         <div class="member-body">
-          <h3>虚位以待</h3>
-          <p class="member-role">成员介绍待补充</p>
-          <p>这位朋友的方向与擅长正在补充中。</p>
+          <h3>栗子学长</h3>
+          <p class="member-role">Top2 新传上岸 · 逻辑清晰的 ESFJ</p>
+          <p>情绪稳定，多次斩获校级、国家级奖励奖学金，带队在各类国家级赛事中获奖，也拥有主流媒体、大厂和私企的实习经历。擅长保研定位、文书润色及面试技巧指导，清北人复等顶尖名校相关经验尤其丰富。</p>
         </div>
       </article>
     </div>
@@ -523,7 +535,7 @@ section{ padding-block:var(--gap); }
       <p class="price-sub">作品集打印</p>
       <div class="price-row">
         <div class="price-desc"><span class="name">优质作品集打印</span><span class="detail">价格比市面友好一些；我和朋友的作品集质量被清华、中传等学校夸奖，质量可以放心</span></div>
-        <div class="price-amt talk">联系咨询</div>
+        <div class="price-amt"><a href="#contact" class="btn-inline">联系咨询</a></div>
       </div>
     </div>
 
